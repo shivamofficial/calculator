@@ -26,9 +26,7 @@ outputscreen.value="";
 }
 
 function del()
-{
-    let x=outputscreen.value;
-    x.slice(0,-1);
+{ outputscreen.value=outputscreen.value.slice(0,-1);
 }
 
 function solve()
